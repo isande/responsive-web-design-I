@@ -267,3 +267,69 @@ ul {
 		margin-bottom: 3%;
 	}
 }
+
+@media (max-width: 500px) {
+	.container {
+		width: 100%;
+	}
+	.nav_bar {
+		width: 100%;
+		text-align: center;
+	}
+	.nav_bar_links {
+		width: 100%;
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid black;
+	}
+
+	.nav_bar .nav_bar_links a {
+		margin: 0;
+		padding: 5%;
+		border-top: 1px solid black;
+		width: 100%;
+		font-weight: bold;
+		font-size: 20px;
+		color: darkgray;
+	}
+
+	.logo {
+		padding: 10% 0% 10% 0%;
+	}
+
+	.titlebox {
+		padding-top: 10%;
+	}
+
+	.upperbox {
+		flex-direction: column;
+		padding-bottom: 7%;
+	}
+
+	.upperbox_content {
+		padding-top: 10%;
+		width: 100%;
+	}
+
+	.middle_img {
+		width: 100%
+		margin: 0;
+		padding: 0;
+	}
+
+	.lowerbox {
+		flex-direction: column;
+		padding-bottom: 10%
+	}
+
+	.lowerbox_content {
+		padding-top: 10%;
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	.contact {
+		margin: 0;
+	}
+}
